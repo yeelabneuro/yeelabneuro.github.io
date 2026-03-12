@@ -53,7 +53,7 @@ ninja.data = [{
           },
         },{id: "nav-people",
           title: "people",
-          description: "members of the lab or group",
+          description: "lab members",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
@@ -440,16 +440,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-dr-yee-will-begin-as-an-assistant-professor-at-the-unversity-of-iowa-starting-august-2026",
+          title: 'Dr. Yee will begin as an Assistant Professor at the Unversity of Iowa...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-tony-el-nemer-s-late-breaking-abstract-entitlted-learning-and-generalization-of-stressor-controllabilility-is-accepted-to-sobp-2026",
+          title: 'Tony El Nemer’s late breaking abstract entitlted “Learning and Generalization of Stressor Controllabilility”...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
