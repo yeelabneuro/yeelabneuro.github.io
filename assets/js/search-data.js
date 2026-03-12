@@ -9,12 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
+  },{id: "nav-people",
+          title: "people",
+          description: "lab members (we are recruiting! see below!)",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/people/";
           },
         },{id: "nav-publications",
           title: "publications",
@@ -23,26 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "github repos for all CAMP lab members and research projects",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
-          },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
           title: "teaching",
@@ -51,28 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "lab members",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -443,11 +408,11 @@ ninja.data = [{
             },},{id: "news-dr-yee-will-begin-as-an-assistant-professor-at-the-unversity-of-iowa-starting-august-2026",
           title: 'Dr. Yee will begin as an Assistant Professor at the Unversity of Iowa...',
           description: "",
-          section: "News",},{id: "news-tony-el-nemer-s-late-breaking-abstract-entitlted-learning-and-generalization-of-stressor-controllabilility-is-accepted-to-sobp-2026",
-          title: 'Tony El Nemer’s late breaking abstract entitlted “Learning and Generalization of Stressor Controllabilility”...',
+          section: "News",},{id: "news-tony-el-nemer-s-late-breaking-abstract-entitled-learning-and-generalization-of-stressor-controllabilility-is-accepted-to-sobp-2026",
+          title: 'Tony El Nemer’s late breaking abstract entitled “Learning and Generalization of Stressor Controllabilility”...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
+          section: "News",},{id: "projects-reward-and-penalty",
+          title: 'reward and penalty',
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
@@ -491,16 +456,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+            },},{id: "teachings-brain-modulation-of-affect-decision-making-and-mental-health",
+          title: 'Brain modulation of affect, decision-making and mental health',
+          description: "This senior seminar course covers the foundational aspects of brain modulation of motivational and affective processes, decision-making, and their relevance to understanding mental health. In this capstone class, students will learn how to critically evaluate, synthesize, and present research studies in this domain.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
+              window.location.href = "/teachings/brain-modulation-MH/";
             },},{
         id: 'social-cv',
         title: 'CV',
@@ -513,7 +473,28 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%64%65%62%62%69%65_%79%65%65@%62%72%6F%77%6E.%65%64%75", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/debyee", "_blank");
+        },
+      },{
+        id: 'social-bluesky_username',
+        title: 'Bluesky_username',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/debyeeneuro", "_blank");
         },
       },{
         id: 'social-inspire',
@@ -534,14 +515,14 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=f-VzTwEAAAAJ", "_blank");
         },
       },{
         id: 'social-custom_social',
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://debyee.github.io", "_blank");
         },
       },{
       id: 'light-theme',
