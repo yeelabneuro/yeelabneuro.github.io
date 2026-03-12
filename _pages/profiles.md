@@ -25,8 +25,8 @@ profiles:
         <a href="https://debyee.github.io" target="_blank"><i class="fas fa-globe"></i></a>
         <a href="https://scholar.google.com/citations?user=f-VzTwEAAAAJ" target="_blank"><i class="ai ai-google-scholar"></i></a>
         <a href="https://github.com/debyee" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://bsky.app/profile/yourhandle" target="_blank"><i class="fab fa-bluesky"></i></a>
-        <a href="https://linkedin.com/in/yourhandle" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://bsky.app/profile/debyee.bsky.social" target="_blank"><i class="fab fa-bluesky"></i></a>
+        <a href="https://linkedin.com/in/debyeeneuro" target="_blank"><i class="fab fa-linkedin"></i></a>
       </center>
   - align: left
     image: profile_heartbrain.png
