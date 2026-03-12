@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Tony El Nemer's late breaking abstract entitlted *"Learning and Generalization of Stressor Controllabilility"* is accepted to SOBP 2026!
+Tony El Nemer's late breaking abstract entitled *"Learning and Generalization of Stressor Controllabilility"* is accepted to SOBP 2026!

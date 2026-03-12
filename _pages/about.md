@@ -42,8 +42,9 @@ latest_posts:
 const questions = [
   "What is the role of serotonin in stress and mental effort?",
   "How does the brain represent motivation and affect?",
-  "What are the computations that underlie the neural signals of decision-making?",
-  "How can we leverage neurocomputational frameworks to understand mental illness?"
+  "What are the computations that underlie neural signals of decision-making?",
+  "How can we leverage neurocomputational frameworks to understand mental illness?",
+  "How do therapeutic interventions improve mental health outcomes and promote healthy aging?"
 ];
 
 let qIndex = 0;
@@ -75,6 +76,6 @@ type();
 
 Welcome to the Computational Affective Motivational Psychiatry (CAMP) Lab at the [University of Iowa](https://psychology.uiowa.edu), directed by Dr. Debbie Yee! 
 
-We are a team of researchers using comptuational, neuroimaging, pharmacology, and neuromodulation techniques to investigate mechanisms of motivation, affect, and decision-making in humans across the developmental lifespan. Our mission is to leverage neurocomputational frameworks to better inform how these processes are dysregulated in mental and neurological illness.
+We are an interdisciplinary team of researchers using comptuational, neuroimaging, pharmacology, and neuromodulation techniques to investigate mechanisms of motivation, affect, and decision-making in humans across the developmental lifespan. Our mission is to leverage neurocomputational frameworks to better inform how these processes are dysregulated in mental and neurological illness.
 
-We are actively recruiting for a full time research assistant / lab manager, graduate students, and postdocs to the join the team! If you are interested in joining the team, please reach out to Dr. Yee with a CV and a short letter of your research interests.
+We are actively recruiting for a full time research assistant / lab manager, graduate students, and postdocs! If you are interested in joining the team and your research interests align with our lab, please reach out to <a href="mailto:debbie_yee@brown.edu">Dr. Yee</a> with a CV and a short letter of your research interests.
