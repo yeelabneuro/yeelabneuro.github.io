@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "research",
-          description: "",
+          description: "Research at the CAMP Lab investigates how motivation, affect, and cognitive control interact in the brain — and how disruptions in these processes contribute to psychiatric disorders across the lifespan.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
