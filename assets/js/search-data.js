@@ -9,9 +9,16 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-people",
-          title: "people",
-          description: "lab members (we are recruiting! see below!)",
+  },{id: "nav-research",
+          title: "research",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
+          },
+        },{id: "nav-team",
+          title: "team",
+          description: "Meet the CAMP Lab and learn about opportunities to join.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
@@ -57,17 +64,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
           
         },
       },{id: "post-a-post-with-tabs",
@@ -290,17 +286,6 @@ ninja.data = [{
             window.location.href = "/blog/2022/giscus-comments/";
           
         },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
       },{id: "post-a-post-with-redirect",
         
           title: "a post with redirect",
@@ -405,11 +390,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-dr-yee-will-begin-as-an-assistant-professor-at-the-unversity-of-iowa-starting-august-2026",
-          title: 'Dr. Yee will begin as an Assistant Professor at the Unversity of Iowa...',
+            },},{id: "news-dr-yee-will-begin-as-an-assistant-professor-at-the-university-of-iowa-starting-august-2026",
+          title: 'Dr. Yee will begin as an Assistant Professor at the University of Iowa...',
           description: "",
-          section: "News",},{id: "news-tony-el-nemer-s-late-breaking-abstract-entitled-learning-and-generalization-of-stressor-controllabilility-is-accepted-to-sobp-2026",
-          title: 'Tony El Nemer’s late breaking abstract entitled “Learning and Generalization of Stressor Controllabilility”...',
+          section: "News",},{id: "news-tony-el-nemer-s-late-breaking-abstract-learning-and-generalization-of-stressor-controllability-has-been-accepted-to-the-society-of-biological-psychiatry-annual-meeting-sobp-2026",
+          title: 'Tony El Nemer’s late-breaking abstract, “Learning and Generalization of Stressor Controllability,” has been...',
+          description: "",
+          section: "News",},{id: "news-dr-yee-has-been-selected-for-the-career-development-institute-for-psychiatry-taking-place-april-12-16-in-san-francisco",
+          title: 'Dr. Yee has been selected for the Career Development Institute for Psychiatry, taking...',
           description: "",
           section: "News",},{id: "projects-reward-and-penalty",
           title: 'reward and penalty',
