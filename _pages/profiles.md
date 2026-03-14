@@ -26,7 +26,7 @@ profiles:
   - align: left
     image: profile_heartbrain.png
     content: about_thiscouldbeyou.md
-    image_circular: false
+    image_circular: true
     more_info: >
       <center><strong>Join the Lab</strong></center>
 ---
