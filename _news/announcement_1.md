@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Dr. Yee will begin as an Assistant Professor at the Unversity of Iowa starting August 2026!
+Dr. Yee will begin as an Assistant Professor at the University of Iowa starting August 2026!

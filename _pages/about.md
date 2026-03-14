@@ -6,45 +6,40 @@ subtitle: computation. affect. motivation. (neuro)psychiatry.
 
 profile:
   align: right
-  image: iowa_seal.jpeg
-  image_circular: false # crops the image to make it circular
+  image: profile_heartbrain.png
+  image_circular: false
   more_info: >
-    <p>Dept of Psychological and Brain Sciences</p>
-    <p>340 Iowa Ave</p>
-    <p>Iowa City, IA 52242</p>
+    <p>Department of Psychological and Brain Sciences</p>
+    <p>University of Iowa</p>
+    <p>Iowa City, IA</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+selected_papers: false
+social: false
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
-<div style="padding: 1em; border-left: 4px solid #EFBF04; margin: 1em 0; font-style: italic; font-size: 1.1em;">
-  &#8220;<span id="typewriter"></span><span id="cursor" style="border-right: 2px solid #7c4dff; animation: blink 0.7s infinite;">&#8203;</span>&#8221;
-</div>
+## Questions we ask
 
-<style>
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
-}
-</style>
+<div class="hero-questions">
+  &#8220;<span id="typewriter"></span><span class="cursor"></span>&#8221;
+</div>
 
 <script>
 const questions = [
-  "What is the role of serotonin in stress and mental effort?",
+  "How does serotonin shape stress and mental effort?",
   "How does the brain represent motivation and affect?",
-  "What are the computations that underlie neural signals of decision-making?",
-  "How can we leverage neurocomputational frameworks to understand mental illness?",
-  "How do therapeutic interventions improve mental health outcomes and promote healthy aging?"
+  "What computations underlie decision-making in the brain?",
+  "Can neurocomputational models explain mental illness?",
+  "How do therapeutics improve mental health across the lifespan?"
 ];
 
 let qIndex = 0;
@@ -55,6 +50,7 @@ const speed = { type: 30, delete: 20, pause: 2000 };
 
 function type() {
   const current = questions[qIndex];
+
   if (!deleting && charIndex <= current.length) {
     el.textContent = current.slice(0, charIndex++);
     setTimeout(type, speed.type);
@@ -74,8 +70,5 @@ function type() {
 type();
 </script>
 
-Welcome to the Computational Affective Motivational Psychiatry (CAMP) Lab at the [University of Iowa](https://psychology.uiowa.edu), directed by Dr. Debbie Yee! 
+The **CAMP Lab** at the [University of Iowa](https://psychology.uiowa.edu), directed by **Dr. Debbie Yee**, uses computational, neuroimaging, pharmacological, and neuromodulation approaches to understand how the brain generates **motivation, affect, and decisions** — and how these processes become dysregulated in **mental and neurological illness**.
 
-We are an interdisciplinary team of researchers using comptuational, neuroimaging, pharmacology, and neuromodulation techniques to investigate mechanisms of motivation, affect, and decision-making in humans across the developmental lifespan. Our mission is to leverage neurocomputational frameworks to better inform how these processes are dysregulated in mental and neurological illness.
-
-We are actively recruiting for a full time research assistant / lab manager, graduate students, and postdocs! If you are interested in joining the team and your research interests align with our lab, please reach out to <a href="mailto:debbie_yee@brown.edu">Dr. Yee</a> with a CV and a short letter of your research interests.
