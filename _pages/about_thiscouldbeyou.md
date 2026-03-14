@@ -1,4 +1,4 @@
-The CAMP Lab is recruiting **undergraduate RAs, graduate students, and postdoctoral researchers**. Graduate applicants may apply through the [Department of Psychological and Brain Sciences](https://psychology.uiowa.edu) (Behavioral Cognitive Neuroscience, Clinical Science, or Individualized tracks) or the [Neuroscience Program](https://neuroscience.uiowa.edu).
+The CAMP Lab is recruiting **undergraduate RAs, a full-time lab manager (post-bacc), graduate students, and postdoctoral researchers**. Graduate applicants may apply through the [Psychology Graduate Program](https://psychology.uiowa.edu/graduate) (Behavioral Cognitive Neuroscience, Clinical Science, or Individualized tracks) or the [Neuroscience Graduate Program](https://neuroscience.grad.uiowa.edu).
 
 We welcome candidates with backgrounds in cognitive neuroscience, clinical science, or computational methods (e.g., Python, R). The CAMP Lab is committed to **inclusive excellence and mutual respect** — we believe diverse perspectives make for better science.
 
