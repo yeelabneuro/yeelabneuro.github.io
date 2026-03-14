@@ -13,7 +13,7 @@ We investigate how reward and punishment signals are integrated in the brain to 
 
 ### Motivation, Affect, and Cognitive Control Across the Lifespan
 
-How do motivational signals shape how much mental effort we invest in a task — and how does this change with age? We examine how primary and secondary incentives are integrated within corticostriatal and prefrontal-limbic circuits to influence cognitive control. Using fMRI, Bayesian multilevel modeling, and drift-diffusion models, we characterize how motivation and arousal dissociate in their effects on behavior across the adult lifespan, with implications for healthy aging and conditions such as Alzheimer's disease.
+How do motivational signals shape how much mental effort we invest in a task — and how does this change with age? We examine how primary and secondary incentives are integrated within corticostriatal and prefrontal-limbic circuits to influence cognitive control. Using fMRI, Bayesian multilevel modeling, and drift-diffusion models, we characterize how motivation and arousal dissociate in their effects on behavior across the adult lifespan, with implications for healthy aging and conditions such as Alzheimer's disease. This work is conducted in collaboration with the [Cognitive Control Collaborative](https://cognitivecontrol.psychology.uiowa.edu), a multidisciplinary group of researchers at the University of Iowa.
 
 ---
 
