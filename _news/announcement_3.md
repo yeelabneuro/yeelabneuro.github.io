@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Dr. Yee has been selected for the [Career Development Institute for Psychiatry](https://cdipsychiatry.org), taking place April 12–16 in San Francisco.
+Dr. Yee has been selected for the [Career Development Institute for Psychiatry](https://cdipsychiatry.org), which will take place in April 12–16 in Palo Alto, CA.

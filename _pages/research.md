@@ -2,12 +2,10 @@
 layout: page
 title: research
 permalink: /research/
-description: Research at the CAMP Lab investigates how motivation, affect, and cognitive control interact in the brain — and how disruptions in these processes contribute to psychiatric disorders across the lifespan.
+description: Research at the CAMP Lab investigates how motivation, affect, and cognitive control interact in the brain. We use a multimodal approach (e.g., neuroimaging, pharmacology, computational modeling, behavioral experimentation, and transcranial neuromodulation) to develop a mechanistic understanding of the transdiagnostic predictors of psychiatric disorders across the lifespan.
 nav: true
 nav_order: 1
 ---
-
-We investigate how reward and punishment signals are integrated in the brain to guide mental effort to support goal-directed behavior. Using a multimodal approach — neuroimaging, pharmacology, computational modeling, and neuromodulation — we examine how motivation, affect, and cognitive control interact, and how disruptions in these processes serve as transdiagnostic predictors of psychiatric disorders across the lifespan.
 
 ---
 
