@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "research",
-          description: "Research at the CAMP Lab investigates how motivation, affect, and cognitive control interact in the brain — and how disruptions in these processes contribute to psychiatric disorders across the lifespan.",
+          description: "Research at the CAMP Lab investigates how motivation, affect, and cognitive control interact in the brain. We use a multimodal approach (e.g., neuroimaging, pharmacology, computational modeling, behavioral experimentation, and transcranial neuromodulation) to develop a mechanistic understanding of the transdiagnostic predictors of psychiatric disorders across the lifespan.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
@@ -390,14 +390,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-dr-yee-will-begin-as-an-assistant-professor-at-the-university-of-iowa-starting-august-2026",
-          title: 'Dr. Yee will begin as an Assistant Professor at the University of Iowa...',
+            },},{id: "news-dr-yee-will-begin-as-an-assistant-professor-in-the-psychological-amp-amp-brain-sciences-department-at-the-university-of-iowa-starting-august-2026",
+          title: 'Dr. Yee will begin as an Assistant Professor in the Psychological &amp;amp;amp; Brain...',
           description: "",
-          section: "News",},{id: "news-tony-el-nemer-s-late-breaking-abstract-learning-and-generalization-of-stressor-controllability-has-been-accepted-to-the-society-of-biological-psychiatry-annual-meeting-sobp-2026",
+          section: "News",},{id: "news-tony-el-nemer-s-late-breaking-abstract-learning-and-generalization-of-stressor-controllability-has-been-accepted-to-the-society-of-biological-psychiatry-annual-meeting",
           title: 'Tony El Nemer’s late-breaking abstract, “Learning and Generalization of Stressor Controllability,” has been...',
           description: "",
-          section: "News",},{id: "news-dr-yee-has-been-selected-for-the-career-development-institute-for-psychiatry-taking-place-april-12-16-in-san-francisco",
-          title: 'Dr. Yee has been selected for the Career Development Institute for Psychiatry, taking...',
+          section: "News",},{id: "news-dr-yee-has-been-selected-for-the-career-development-institute-for-psychiatry-which-will-take-place-in-april-12-16-in-palo-alto-ca",
+          title: 'Dr. Yee has been selected for the Career Development Institute for Psychiatry, which...',
+          description: "",
+          section: "News",},{id: "news-gill-leblanc-presents-a-poster-entitled-investigating-heart-rate-as-a-physiological-measure-of-stressor-controllability-and-mental-effort-allocation-at-mind-brain-research-day",
+          title: 'Gill LeBlanc presents a poster entitled “Investigating Heart Rate as a Physiological Measure...',
           description: "",
           section: "News",},{id: "projects-reward-and-penalty",
           title: 'reward and penalty',
