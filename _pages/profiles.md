@@ -15,7 +15,7 @@ profiles:
     more_info: >
       <center>
         <strong>Principal Investigator</strong><br>
-        <a href="mailto:debbie_yee@brown.edu" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="mailto:debbie-yee@uiowa.edu" aria-label="Email"><i class="fas fa-envelope"></i></a>
         <a href="https://debyee.github.io" target="_blank" rel="noopener noreferrer" aria-label="Website"><i class="fas fa-globe"></i></a>
         <a href="https://scholar.google.com/citations?user=f-VzTwEAAAAJ" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
         <a href="https://github.com/debyee" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
