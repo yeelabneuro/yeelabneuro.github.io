@@ -37,6 +37,10 @@
     .submit-btn:active { transform: translateY(0); }
     .form-note { margin-top: 14px; font-size: 0.82rem; color: #a0aec0; }
     .success-banner { display: none; background: #c6f6d5; border: 1.5px solid #68d391; border-radius: 8px; padding: 18px 24px; color: #276749; font-weight: 600; font-size: 0.97rem; text-align: center; margin-top: 24px; }
+    .ai-affirmation { background: #faf5ff; border: 1.5px solid #d6bcfa; border-radius: 8px; padding: 18px 20px; margin-bottom: 28px; display: flex; align-items: flex-start; gap: 12px; }
+    .ai-affirmation input[type="checkbox"] { width: 18px; height: 18px; min-width: 18px; margin-top: 2px; accent-color: #553c9a; cursor: pointer; }
+    .ai-affirmation label { font-size: 0.9rem; font-weight: 600; color: #44337a; cursor: pointer; line-height: 1.5; margin-bottom: 0; }
+    .ai-affirmation label .required { color: #e53e3e; }
     @media (max-width: 560px) { .form-row { flex-direction: column; gap: 0; } header, .form-card { padding: 24px 20px; } }
   </style>
 </head>
@@ -216,6 +220,14 @@
         <textarea id="additionalInfo" name="additionalInfo" placeholder="Fellowships, awards, funding history, special circumstances, how you heard about this opportunity, etc." style="min-height:80px;"></textarea>
       </div>
 
+      <!-- AI Affirmation -->
+      <div class="ai-affirmation">
+        <input type="checkbox" id="noAiAffirmation" name="noAiAffirmation" required />
+        <label for="noAiAffirmation">
+          I affirm that the responses in this application were written by me and were <strong>not generated or substantially drafted by AI tools</strong> (e.g., ChatGPT, Claude, Copilot, or similar). <span class="required">*</span>
+        </label>
+      </div>
+
       <!-- Submit -->
       <div class="submit-area">
         <button type="submit" class="submit-btn">Submit Application</button>
@@ -240,10 +252,15 @@
     const required = this.querySelectorAll('[required]');
     let valid = true;
     required.forEach(field => {
-      field.style.borderColor = '';
-      if (!field.value.trim()) { field.style.borderColor = '#e53e3e'; valid = false; }
+      if (field.type === 'checkbox') {
+        field.parentElement.style.borderColor = '';
+        if (!field.checked) { field.parentElement.style.borderColor = '#e53e3e'; valid = false; }
+      } else {
+        field.style.borderColor = '';
+        if (!field.value.trim()) { field.style.borderColor = '#e53e3e'; valid = false; }
+      }
     });
-    if (!valid) { e.preventDefault(); alert('Please fill in all required fields before submitting.'); return; }
+    if (!valid) { e.preventDefault(); alert('Please fill in all required fields and check the affirmation box before submitting.'); return; }
   });
 </script>
 </body>
