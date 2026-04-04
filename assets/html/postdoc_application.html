@@ -213,6 +213,19 @@
         </div>
       </div>
 
+      <!-- Work Authorization -->
+      <div class="section-title">Work Authorization</div>
+      <div class="form-group" style="margin-bottom:20px;">
+        <label for="visaSponsorship">Will you now or in the future require visa sponsorship to work in the United States? <span class="required">*</span></label>
+        <select id="visaSponsorship" name="visaSponsorship" required>
+          <option value="">— Select —</option>
+          <option value="no">No, I am authorized to work in the U.S. without sponsorship</option>
+          <option value="yes">Yes, I will require visa sponsorship</option>
+          <option value="unsure">I am unsure at this time</option>
+        </select>
+        <div class="hint">This information helps us plan accordingly and does not automatically disqualify your application. Any individual who received their PhD in the U.S. may request a 24-month F-1 OPT STEM extension, and work authorization sponsorship in J-1 status is also available.</div>
+      </div>
+
       <!-- Additional Info -->
       <div class="section-title">Additional Information</div>
       <div class="form-group" style="margin-bottom:20px;">
@@ -243,11 +256,6 @@
 </div>
 
 <script>
-  document.getElementById('cvUpload').addEventListener('change', function() {
-    const display = document.getElementById('cvFileName');
-    display.textContent = this.files.length > 0 ? '📎 ' + this.files[0].name : '';
-  });
-
   document.getElementById('applicationForm').addEventListener('submit', function(e) {
     const required = this.querySelectorAll('[required]');
     let valid = true;
