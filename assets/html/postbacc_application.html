@@ -206,6 +206,19 @@
         </div>
       </div>
 
+      <!-- Work Authorization -->
+      <div class="section-title">Work Authorization</div>
+      <p style="font-size:0.9rem;color:#4a5568;margin-bottom:20px;"><strong>Please note:</strong> This program requires that research interns be U.S. citizens or permanent residents.</p>
+      <div class="form-group" style="margin-bottom:20px;">
+        <label for="visaSponsorship">Are you a U.S. citizen or permanent resident? <span class="required">*</span></label>
+        <select id="visaSponsorship" name="visaSponsorship" required>
+          <option value="">— Select —</option>
+          <option value="citizen">Yes, I am a U.S. citizen</option>
+          <option value="permanent_resident">Yes, I am a U.S. permanent resident</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
       <!-- Additional Info -->
       <div class="section-title">Additional Information</div>
       <div class="form-group" style="margin-bottom:20px;">
@@ -236,11 +249,6 @@
 </div>
 
 <script>
-  document.getElementById('cvUpload').addEventListener('change', function() {
-    const display = document.getElementById('cvFileName');
-    display.textContent = this.files.length > 0 ? '📎 ' + this.files[0].name : '';
-  });
-
   document.getElementById('applicationForm').addEventListener('submit', function(e) {
     const required = this.querySelectorAll('[required]');
     let valid = true;
