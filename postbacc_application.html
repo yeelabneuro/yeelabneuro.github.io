@@ -52,7 +52,8 @@
   </header>
 
   <div class="form-card">
-    <form id="applicationForm" action="https://formspree.io/f/mbdpgrol" method="POST" enctype="multipart/form-data" novalidate>
+    <form id="applicationForm" novalidate>
+      <input type="hidden" name="access_key" value="519295d9-94bd-4030-a968-92409a7b6ba0" />
 
       <!-- Contact Information -->
       <div class="section-title">Contact Information</div>
@@ -249,7 +250,8 @@
 </div>
 
 <script>
-  document.getElementById('applicationForm').addEventListener('submit', function(e) {
+  document.getElementById('applicationForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
     const required = this.querySelectorAll('[required]');
     let valid = true;
     required.forEach(field => {
@@ -261,7 +263,16 @@
         if (!field.value.trim()) { field.style.borderColor = '#e53e3e'; valid = false; }
       }
     });
-    if (!valid) { e.preventDefault(); alert('Please fill in all required fields and check the affirmation box before submitting.'); return; }
+    if (!valid) { alert('Please fill in all required fields and check the affirmation box before submitting.'); return; }
+    const formData = new FormData(this);
+    const response = await fetch('https://api.web3forms.com/submit', { method: 'POST', body: formData });
+    const data = await response.json();
+    if (data.success) {
+      document.getElementById('successBanner').style.display = 'block';
+      this.reset();
+    } else {
+      alert('Something went wrong. Please try again.');
+    }
   });
 </script>
 </body>
