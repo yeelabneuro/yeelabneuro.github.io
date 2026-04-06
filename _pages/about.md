@@ -71,4 +71,3 @@ type();
 </script>
 
 The **CAMP Lab** at the [University of Iowa](https://psychology.uiowa.edu), directed by **Dr. Debbie Yee**, uses computational, neuroimaging, pharmacological, and neuromodulation approaches to understand how the brain generates **motivation, affect, and decisions** — and how these processes become dysregulated in **mental and neurological illness**.
-

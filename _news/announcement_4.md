@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Gill LeBlanc presents a poster entitled *"Investigating Heart Rate as a Physiological Measure of Stressor Controllability and Mental Effort Allocation,"* at [Mind Brain Research Day](https://events.brown.edu/event/328609-2026-mind-brain-research-day).
+Gill LeBlanc presents a poster entitled _"Investigating Heart Rate as a Physiological Measure of Stressor Controllability and Mental Effort Allocation,"_ at [Mind Brain Research Day](https://events.brown.edu/event/328609-2026-mind-brain-research-day).
