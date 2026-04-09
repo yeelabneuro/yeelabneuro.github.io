@@ -55,8 +55,10 @@ Generally, indviduals with a strong background in computer science (or programmi
 
 Iowa City is a **lively mid-sized city and college town** that often surprises people (a reward prediction error, if you will) — it's a vibrant little city in the Midwest that has great nationally recognized restaurants and bars, coffee shops, live music venues, and is surrounded by beautiful running and biking trails as well as a [neighboring lake](https://www.iowadnr.gov/places-go/state-parks/all-parks/lake-macbride-state-park). The University of Iowa is a **Big Ten research university** that gives the city a lot of its energy, and has a rich intellectual environment with cross-campus collaboration with the [Carver College of Medicine](https://medicine.uiowa.edu) and [Iowa Neuroscience Institute](https://iowaneuroscience.medicine.uiowa.edu). There's free public transit and a bike-friendly infrastructure. Personally, I think its a fantastic mix of vibrant intellectual communty and accessibility to sports, arts, and culture year-round. But you'll have too see for yourself.
 
-Fun fact: Iowa City is also one of only two American cities designated as a **[UNESCO City of Literature](https://www.iowacityofliterature.org)**, home to the world-famous Iowa Writers' Workshop.
+Fun fact: Iowa City is also one of only two American cities designated as a [UNESCO City of Literature](https://www.iowacityofliterature.org), home to the world-famous [Iowa Writers' Workshop](https://en.wikipedia.org/wiki/Iowa_Writers%27_Workshop).
 
-A few other selling points I'll end with. Iowa City has been ranked one of the [best cities to live in America](https://livability.com), and the cost of living is lower (your stipend goes further here). I'll borrow from other neighboring labs who are much better at advertising Iowa City, including the [Bolkan Lab](https://www.bolkanlab.org/iowa-city) and [Wessel Lab](https://wessel.lab.uiowa.edu/iowa-city).
+A few other selling points I'll end with. Iowa City has been ranked one of the [best cities to live in America](https://livability.com/ia/iowa-city/), and the cost of living is lower (your stipend goes further here). I'll borrow from other neighboring labs who are much better at advertising Iowa City, including the [Bolkan Lab](https://www.bolkanlab.org/iowa-city) and [Wessel Lab](https://wessel.lab.uiowa.edu/iowa-city).
+
+<img src="/assets/img/IowaCity.jpeg" alt="Iowa City" class="img-fluid rounded" style="max-width: 95%; margin-top: 1rem;">
 
 ---
