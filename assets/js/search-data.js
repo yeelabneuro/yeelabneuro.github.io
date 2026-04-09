@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-q-amp-a",
+          title: "q&amp;a",
+          description: "Common questions about joining the CAMP Lab and living in Iowa City.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/faq/";
+          },
         },{id: "nav-repositories",
           title: "repositories",
           description: "github repos for all CAMP lab members and research projects",
