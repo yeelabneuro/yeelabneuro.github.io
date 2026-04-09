@@ -11,7 +11,7 @@ nav_order: 3
 
 Yes, I will be accepting graduate students for Fall 2026 applicaton cycle.
 
-Prospective students may apply to [Psych & Brain Sciences](https://psychology.uiowa.edu/graduate), either through the [Behavioral & Cognitive Neuroscience](https://psychology.uiowa.edu/graduate/behavioral-cognitive-neuroscience), [Clinical Science](https://psychology.uiowa.edu/graduate/clinical-science), or [Individualized Track](https://psychology.uiowa.edu/graduate/individualized-training).Prospective students may also apply to the [Neuroscience Graduate Program](https://neuroscience.grad.uiowa.edu/prospective-students). Each track and program has a different set of requirements and expectations for degree completion, though the expectations for conducting research in the lab are the same regardless of program.
+Prospective students may apply to [Psych & Brain Sciences](https://psychology.uiowa.edu/graduate), either through the [Behavioral & Cognitive Neuroscience](https://psychology.uiowa.edu/graduate/behavioral-cognitive-neuroscience), [Clinical Science](https://psychology.uiowa.edu/graduate/clinical-science), or [Individualized Track](https://psychology.uiowa.edu/graduate/individualized-training). Prospective students may also apply to the [Neuroscience Graduate Program](https://neuroscience.grad.uiowa.edu/prospective-students). Each track and program has a different set of requirements and expectations for degree completion, though the expectations for conducting research in the lab are the same regardless of program.
 
 ---
 
