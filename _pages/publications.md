@@ -13,8 +13,18 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
+## Preprints
+
 <div class="publications">
 
-{% bibliography %}
+{% bibliography --query @*[journal=bioRxiv] %}
+
+</div>
+
+## Publications
+
+<div class="publications">
+
+{% bibliography --query @*[journal!=bioRxiv] %}
 
 </div>
