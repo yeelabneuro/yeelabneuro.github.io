@@ -409,8 +409,8 @@ ninja.data = [{
           section: "News",},{id: "news-gill-leblanc-presents-a-poster-entitled-investigating-heart-rate-as-a-physiological-measure-of-stressor-controllability-and-mental-effort-allocation-at-mind-brain-research-day",
           title: 'Gill LeBlanc presents a poster entitled “Investigating Heart Rate as a Physiological Measure...',
           description: "",
-          section: "News",},{id: "news-the-camp-lab-attends-sobp2026",
-          title: 'The CAMP Lab attends SOBP2026!',
+          section: "News",},{id: "news-dr-yee-receives-an-early-career-travel-award-and-the-camp-lab-attends-sobp2026",
+          title: 'Dr. Yee receives an Early Career Travel Award and The CAMP Lab attends...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/sobp-2026/";
