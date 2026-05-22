@@ -35,13 +35,20 @@ We are actively recruiting postdocs to join the lab! If you feel like your resea
 
 **<i class="fas fa-brain"></i> I am looking for lab manager or post-bacc position in your lab. How do I apply?**
 
-We are actively recruiting a lab manager / post-bacc to start this Fall 2026. Details about the position can found [here](/assets/pdf/Yee_Lab_PostBacc_Job_Ad.pdf).
+We are not currently looking for lab manager / post-bacc at this time. 
+
+<!-- We are actively recruiting a lab manager / post-bacc to start this Fall 2026. Details about the position can found [here](/assets/pdf/Yee_Lab_PostBacc_Job_Ad.pdf). -->
 
 ---
 
 **<i class="fas fa-brain"></i> I am an undergrad looking to join your lab. How do I apply?**
 
-We welcome enthusiatic undergraduate research assistants who are excited about our lab's work! If you are interested joining the lab, please reach out via email with a CV and a cover letter of your interests and training goals.
+We welcome enthusiatic undergraduate research assistants who are excited about our lab's work! If you are interested joining the lab, please complete this [form](/assets/html/undergrad_ra_application.html). Please make sure to include the following in your application: 
+- CV or resume
+- academic transcript
+- description of your past research experience, current research interests, and career goals
+- description of interests in the lab (Why are you interested in our lab specifically?)
+- relevant technical background (e.g., programming languages, statistical analyses)
 
 ---
 

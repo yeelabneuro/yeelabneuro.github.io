@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The CAMP Lab attends SOBP2026!
+title: Dr. Yee receives an Early Career Travel Award and The CAMP Lab attends SOBP2026!
 date: 2026-04-29 00:00:00-0400
 inline: false
 related_posts: false
