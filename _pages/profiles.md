@@ -24,6 +24,26 @@ profiles:
       </center>
 
   - align: left
+    image: profile_gina-mazurenko.jpg
+    content: about_gina-mazurenko.md
+    image_circular: true
+    image_size: small
+    more_info: >
+      <center>
+        <strong>Lab Manager</strong>
+      </center>
+
+  - align: left
+    image: profile_heartbrain.jpg
+    content: about_tony-elnemer.md
+    image_circular: true
+    image_size: small
+    more_info: >
+      <center>
+        <strong>Lab Manager</strong>
+      </center>
+
+  - align: left
     image: profile_heartbrain.png
     content: about_thiscouldbeyou.md
     image_circular: true
