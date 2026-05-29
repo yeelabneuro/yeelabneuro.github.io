@@ -24,8 +24,8 @@ profiles:
       </center>
 
   - align: left
-    image: profile_gina-mazurenko.jpg
-    content: about_gina-mazurenko.md
+    image: profile_heartbrain.jpg
+    content: about_tony-elnemer.md
     image_circular: true
     image_size: small
     more_info: >
@@ -34,8 +34,8 @@ profiles:
       </center>
 
   - align: left
-    image: profile_heartbrain.jpg
-    content: about_tony-elnemer.md
+    image: profile_gina-mazurenko.jpg
+    content: about_gina-mazurenko.md
     image_circular: true
     image_size: small
     more_info: >
