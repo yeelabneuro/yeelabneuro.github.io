@@ -54,13 +54,13 @@ We welcome enthusiatic undergraduate research assistants who are excited about o
 
 **<i class="fas fa-brain"></i> What backgrounds are you looking for?**
 
-Generally, indviduals with a strong background in computer science (or programming generally), cognitive/affective neuroscience, cognitive science, clinical science who are naturally curious and motivated to uncover open questions about the brain in mental health are aligned with our research ethos. We take an interdisciplinary approach and care deeply about using rigorous approaches to address key mechanistic questions of interactions between affect and mental health.
+Generally, indviduals with a strong background in computer science and engineering (or programming generally), cognitive or affective neuroscience, cognitive science, clinical science who are naturally curious and motivated to uncover open questions about the brain in mental health are aligned with our research ethos. We take an interdisciplinary approach and care deeply about using rigorous approaches to address key mechanistic questions of interactions between affect and mental health.
 
 ---
 
 **<i class="fas fa-brain"></i> What are your values with respect to lab culture and mentoring environment?**
 
-I personally value fostering an inclusive culture built on mutual respect for all individuals, regardless of identity, background, and any other type of visible or invisible factors (this is shaped by service on various departmental committes as a grad student and postdoc, as well as my own personal experiences). As such, I expect all lab members to be kind to and mutually respectful one another. All lab members are expected to take personal responsibility for the tasks that they are assigned, use their critical thinking to solve problems, and proactively ask questions, operate independently, and take initative to troubleshoot issues (both technical and interpersonal) when necessary. 
+I personally value fostering an inclusive culture built on mutual respect for all individuals, regardless of identity, background, and any other type of visible or invisible factors (this is shaped by service on various departmental committes as a grad student and postdoc, as well as my own personal experiences). As such, I expect all lab members to be kind to and mutually respectful one another. All lab members are expected to take personal responsibility for their work, use their critical thinking to solve problems, proactively ask questions, operate independently, and take initative to troubleshoot issues (both technical and interpersonal) when necessary. 
 
 ---
 

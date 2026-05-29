@@ -7,9 +7,9 @@ subtitle: computation. affect. motivation. (neuro)psychiatry.
 profile:
   align: right
   image: profile_heartbrain.png
-  image_circular: false
+  image_circular: true
   more_info: >
-    <p>Department of Psychological and Brain Sciences</p>
+    <p>Psychological and Brain Sciences Department</p>
     <p>University of Iowa</p>
     <p>Iowa City, IA</p>
 
@@ -38,7 +38,7 @@ const questions = [
   "How does serotonin shape stress and mental effort?",
   "How does the brain represent motivation and affect?",
   "What computations underlie decision-making in the brain?",
-  "Can neurocomputational models explain mental illness?",
+  "How can we leverage neurocomputational models to explain mental illness?",
   "How do therapeutics improve mental health across the lifespan?"
 ];
 
