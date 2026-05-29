@@ -414,7 +414,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/sobp-2026/";
-            },},{id: "projects-reward-and-penalty",
+            },},{id: "news-congratulations-tony-el-nemer-for-graduating-and-for-receiving-the-muriel-fain-sher-premium-for-excellence-in-psychology-and-completion-of-his-honors-thesis",
+          title: 'Congratulations Tony El Nemer for graduating, and for receiving the Muriel Fain Sher...',
+          description: "",
+          section: "News",},{id: "projects-reward-and-penalty",
           title: 'reward and penalty',
           description: "with background image",
           section: "Projects",handler: () => {
