@@ -58,6 +58,12 @@ Generally, indviduals with a strong background in computer science (or programmi
 
 ---
 
+**<i class="fas fa-brain"></i> What are your values with respect to lab culture and mentoring environment?**
+
+I personally value fostering an inclusive culture built on mutual respect for all individuals, regardless of identity, background, and any other type of visible or invisible factors (this is shaped by service on various departmental committes as a grad student and postdoc, as well as my own personal experiences). As such, I expect all lab members to be kind to and mutually respectful one another. All lab members are expected to take personal responsibility for the tasks that they are assigned, use their critical thinking to solve problems, and proactively ask questions, operate independently, and take initative to troubleshoot issues (both technical and interpersonal) when necessary. 
+
+---
+
 **<i class="fas fa-brain"></i> What is it like to live in Iowa City?**
 
 Iowa City is a **lively mid-sized city and college town** that often surprises people (a reward prediction error, if you will) — it's a vibrant little city in the Midwest that has great nationally recognized restaurants and bars, coffee shops, live music venues, and is surrounded by beautiful running and biking trails as well as a [neighboring lake](https://www.iowadnr.gov/places-go/state-parks/all-parks/lake-macbride-state-park). The University of Iowa is a **Big Ten research university** that gives the city a lot of its energy, and has a rich intellectual environment with cross-campus collaboration with the [Carver College of Medicine](https://medicine.uiowa.edu) and [Iowa Neuroscience Institute](https://iowaneuroscience.medicine.uiowa.edu). There's free public transit and a bike-friendly infrastructure. Personally, I think its a fantastic mix of vibrant intellectual communty and accessibility to sports, arts, and culture year-round. But you'll have too see for yourself.
