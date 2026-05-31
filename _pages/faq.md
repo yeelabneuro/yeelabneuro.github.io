@@ -60,7 +60,7 @@ Generally, indviduals with a strong background in computer science and engineeri
 
 **<i class="fas fa-brain"></i> What are your values with respect to lab culture and mentoring environment?**
 
-I personally value fostering an inclusive culture built on mutual respect for all individuals, regardless of identity, background, and any other type of visible or invisible factors (this is shaped by service on various departmental committes as a grad student and postdoc, as well as my own personal experiences). As such, I expect all lab members to be kind to and mutually respectful one another. All lab members are expected to take personal responsibility for their work, use their critical thinking to solve problems, proactively ask questions, operate independently, and take initative to troubleshoot issues (both technical and interpersonal) when necessary. 
+I value fostering an inclusive culture built on mutual respect for all individuals, regardless of identity, background, and any other type of visible or invisible factors (this is shaped by my service on various departmental committes as a grad student and postdoc, as well as my own personal experiences). As such, I expect all lab members to be kind to and mutually respectful to one another. All lab members are expected to take personal responsibility for their work, use their critical thinking to solve problems, proactively ask questions, operate independently, and take initative to troubleshoot issues (both technical and interpersonal) when necessary. 
 
 ---
 
