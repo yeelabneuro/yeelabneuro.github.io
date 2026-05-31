@@ -24,7 +24,7 @@ profiles:
       </center>
 
   - align: left
-    image: profile_heartbrain.jpg
+    image: profile_tonyelnemer.jpg
     content: about_tony-elnemer.md
     image_circular: true
     image_size: small
