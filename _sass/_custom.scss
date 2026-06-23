@@ -65,3 +65,9 @@ html[data-theme="dark"] {
   line-height: 1.7;
   margin-bottom: 1.4rem;
 }
+
+/* Keep the homepage title on a single line at any screen width */
+.about-title {
+  font-size: clamp(0.75rem, 4.6vw, 1.7rem);
+  white-space: nowrap;
+}

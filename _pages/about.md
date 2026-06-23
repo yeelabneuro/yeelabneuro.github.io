@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: computation. affect. motivation. (neuro)psychiatry.
+subtitle: brain & body mechanisms of motivation, affect, and decision-making.
 
 profile:
   align: right
@@ -27,7 +27,7 @@ latest_posts:
   limit: 3
 ---
 
-## Questions we ask
+###  questions we ask
 
 <div class="hero-questions">
   &#8220;<span id="typewriter"></span><span class="cursor"></span>&#8221;
@@ -70,4 +70,4 @@ function type() {
 type();
 </script>
 
-The **CAMP Lab** at the [University of Iowa](https://psychology.uiowa.edu), directed by **Dr. Debbie Yee**, uses computational, neuroimaging, pharmacological, and neuromodulation approaches to understand how the brain generates **motivation, affect, and decisions** — and how these processes become dysregulated in **mental and neurological illness**.
+The **Computational Affective Motivation Psychiatry (CAMP) Lab** at the [University of Iowa](https://psychology.uiowa.edu), directed by **Dr. Debbie Yee**, uses computational, neuroimaging, pharmacological, and neuromodulation approaches to understand how the brain generates **motivation, affect, and decisions** — and how these processes become dysregulated in **mental and neurological illness**.
