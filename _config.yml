@@ -3,6 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: Computational Affective Motivation Psychiatry Lab # the website title (if blank, full name will be used instead)
+short_title: CAMP Lab # abbreviated title shown in the navbar on pages other than the homepage
 first_name: CAMP
 middle_name:
 last_name: Lab
