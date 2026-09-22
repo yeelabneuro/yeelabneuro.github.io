@@ -4,7 +4,7 @@ permalink: /faq/
 title: q&a
 description: Common questions about joining the CAMP Lab and living in Iowa City.
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 **<i class="fas fa-brain"></i> Will you be accepting graduate students?**

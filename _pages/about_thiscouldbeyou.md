@@ -1,7 +1,3 @@
-The CAMP Lab is recruiting **undergraduate RAs, graduate students, and postdoctoral researchers**. Graduate applicants may apply through the [Psychological & Brain Sciences Graduate Program](https://psychology.uiowa.edu/graduate) or the [Neuroscience Graduate Program](https://neuroscience.grad.uiowa.edu). The deadline is Dec 1, 2026.
+The CAMP Lab is recruiting **undergraduate RAs, graduate students, and postdoctoral researchers**. We welcome candidates with backgrounds in cognitive or affective neuroscience, computational modeling, data science, computer science, or clinical science.
 
-Postdoctoral applicants may apply [here](/postdoc_application.html). (view [job description](/assets/pdf/Yee_Lab_Postdoc_Job_Ad.pdf)).  
-Undergraduate RA applicants may apply [here](/assets/html/undergrad_ra_application.html).
-<!-- Post-bacc applicants may apply [here](/postbacc_application.html) (view [job description](/assets/pdf/Yee_Lab_PostBacc_Job_Ad.pdf)). -->
-
-We welcome candidates with backgrounds in cognitive or affective neuroscience, computational modeling, data science, computer science, or clinical science. The CAMP Lab is committed to **inclusive excellence and mutual respect** — we believe diverse perspectives make for better science.
+See our [Join Us](/join/) page for open positions and how to apply.

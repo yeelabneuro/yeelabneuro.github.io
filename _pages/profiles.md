@@ -5,6 +5,12 @@ title: team
 description: Meet the CAMP Lab and learn about opportunities to join.
 nav: true
 nav_order: 2
+dropdown: true
+children:
+  - title: team
+    permalink: /people/
+  - title: join us
+    permalink: /join/
 
 profiles:
   - align: left

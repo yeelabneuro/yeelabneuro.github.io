@@ -4,7 +4,7 @@ permalink: /repositories/
 title: repositories
 description: github repos for all CAMP lab members and research projects
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 {% if site.data.repositories.github_users %}

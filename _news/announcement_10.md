@@ -2,7 +2,7 @@
 layout: post
 title: Dr. Yee receives a 2026 ACNP Travel Award!
 date: 2026-08-27 00:00:00-0400
-inline: false
+inline: true
 related_posts: false
 permalink: news/2026-acnp-travel-award/
 ---
