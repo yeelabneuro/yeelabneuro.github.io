@@ -50,7 +50,7 @@ profiles:
       </center>
 
   - align: left
-    image: profile_olivia.png
+    image: profile_olivia.jpg
     content: about_olivia-bartuska.md
     image_circular: true
     image_size: small
