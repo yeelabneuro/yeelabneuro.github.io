@@ -440,7 +440,7 @@ ninja.data = [{
           section: "News",},{id: "news-tvisha-shah-will-be-presenting-new-and-exciting-work-on-digital-health-metrics-of-sleep-and-heart-rate-variability-at-this-year-s-computational-cognitive-neuroscience-meeting",
           title: 'Tvisha Shah will be presenting new and exciting work on digital health metrics...',
           description: "",
-          section: "News",},{id: "news-dr-yee-has-been-selected-for-the-2026-acnp-travel-award-from-the-american-college-of-neuropsychopharmacology-and-will-attend-this-year-s-annual-meeting-in-san-diego-congrats",
+          section: "News",},{id: "news-dr-yee-has-been-selected-for-the-2026-acnp-travel-award-from-the-american-college-of-neuropsychopharmacology-and-will-attend-this-year-s-annual-meeting-in-san-diego",
           title: 'Dr. Yee has been selected for the 2026 ACNP Travel Award from the...',
           description: "",
           section: "News",},{id: "news-dr-yee-co-moderated-a-gsa-webinar-advances-in-decision-neuroscience-amp-amp-aging-highlighting-published-work-from-the-journals-of-gerontology-series-b-special-issue-co-edited-along-with-dr-karolina-lempert-and-dr-nathan-spreng-from-the-scientific-research-network-on-decision-neuroscience-and-aging",
