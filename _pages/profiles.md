@@ -61,6 +61,16 @@ profiles:
 
   - align: left
     image: profile_heartbrain.png
+    content: about_lauren-ausborn.md
+    image_circular: true
+    image_size: small
+    more_info: >
+      <center>
+        <strong>Research Assistant</strong>
+      </center>
+
+  - align: left
+    image: profile_heartbrain.png
     content: about_thiscouldbeyou.md
     image_circular: true
     more_info: >
