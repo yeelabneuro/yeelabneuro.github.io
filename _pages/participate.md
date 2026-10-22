@@ -69,4 +69,20 @@ To participate in any of our studies, you must be **18–55 years of age**. Inte
 
 ---
 
+## Deep Brain Ultrasound Stimulation Study (TUS)
+
+**Purpose:** This study evaluates how deep brain circuits, neural activity, and neuromodulation interact to guide cognitive control and decision-making under stress and motivational incentives.
+
+**Participation:** Eligible participants will be asked to complete several online surveys and 3 in-person visits: one at the MRRF at the Pappajohn Biomedical Discovery Building (PBDB), and two at the Psychological and Brain Sciences Building (PBSB). In-person visits will involve measuring physiological measures (e.g., heart rate), conducting magnetic resonance imaging (MRI) inside a scanner, performing computerized tasks under different motivational/stress environments (e.g., electrical stimulation, sounds), completing behavioral tasks (e.g., puzzle game), and undergoing transcranial ultrasound (TUS) stimulation.
+
+**Location:** MRRF, Pappajohn Biomedical Discovery Building and Psychological and Brain Sciences Building, University of Iowa
+
+**Time Involved:** 3 in-person sessions, 1 to 3 hours each
+
+**Compensation:** \\$25 per hour or SONA credit
+
+**Interested?** [Complete the pre-screening survey](https://uiowa.qualtrics.com/jfe/form/SV_031AiGisU1k24XY)
+
+---
+
 If you have questions about our research or would like to be notified about upcoming studies, feel free to [email us](mailto:debbie-yee@uiowa.edu).
