@@ -41,7 +41,7 @@ To participate in any of our studies, you must be **18–55 years of age**. Inte
 
 **Compensation:** \\$25 per hour or SONA credit
 
-**Interested?** [Complete the pre-screening survey](https://uiowa.qualtrics.com/jfe/form/SV_eaOa2VjSuqAUkYe)
+**Interested?** [Complete the pre-screening survey](https://uiowa.qualtrics.com/jfe/form/SV_7Ot98psfX2395I2)
 
 ---
 
@@ -65,7 +65,7 @@ To participate in any of our studies, you must be **18–55 years of age**. Inte
 - \\$25 per hour for the pharmacology and MRI sessions (\\$150 for Session 2 and \\$150 for Session 3)
 - \\$30 bonus for completing all 3 sessions and returning the Oura ring
 
-**Interested?** [Complete the pre-screening survey](https://uiowa.qualtrics.com/jfe/form/SV_7Ot98psfX2395I2)
+**Interested?** [Complete the pre-screening survey](https://uiowa.qualtrics.com/jfe/form/SV_eaOa2VjSuqAUkYe)
 
 ---
 
