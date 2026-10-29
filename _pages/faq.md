@@ -55,9 +55,9 @@ We welcome enthusiatic undergraduate research assistants who are excited about o
 
 **<i class="fas fa-brain"></i> I am an undergrad. Can you write me a letter of recommendation?**
 
-I write letters for students applying to graduate school, medical school, jobs, and scholarships. Strong letters come from someone who knows your work well, so I generally write for students who have worked in the lab or whom I have gotten to know through a course (e.g., office hours, class discussions, or a substantial project). If we have not interacted much outside of a large lecture, I may not be able to write a strong letter, and I will tell you so.
+I write letters for students applying to graduate school, medical school, jobs, and scholarships, and I consider each request individually. Strong letters come from someone who knows your work well, so I am usually best positioned to write for students who have worked in the lab or whom I have gotten to know through a course (e.g., office hours, class discussions, or a substantial project). If I don't feel I can write you a strong letter, or my schedule doesn't allow it, I will let you know, since a letter from someone who knows you better will serve you best.
 
-To request a letter, please email me **at least 4 weeks before your first deadline** with the following:
+Please check with me before listing me as a recommender. Send me a short email **at least 4 weeks before your first deadline** with a brief note on how we know each other and what you are applying to. If I am able to write for you, I will ask you to send the following:
 
 - a link to a shared spreadsheet (Google Sheets or SharePoint/OneDrive) listing each program/position, its deadline, how letters are submitted, and a link to the program, plus a column for me to check off each letter once it is submitted; keep this updated as you add programs or receive portal requests (you may start from this [template](/assets/files/letter_request_template.xlsx))
 - your CV or resume
