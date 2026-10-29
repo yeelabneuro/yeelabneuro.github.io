@@ -35,7 +35,7 @@ We are actively recruiting postdocs to join the lab! If you feel like your resea
 
 **<i class="fas fa-brain"></i> I am looking for lab manager or post-bacc position in your lab. How do I apply?**
 
-We are not currently looking for lab manager / post-bacc at this time. 
+We are not currently looking for lab manager / post-bacc at this time.
 
 <!-- We are actively recruiting a lab manager / post-bacc to start this Fall 2026. Details about the position can found [here](/assets/pdf/Yee_Lab_PostBacc_Job_Ad.pdf). -->
 
@@ -43,12 +43,39 @@ We are not currently looking for lab manager / post-bacc at this time.
 
 **<i class="fas fa-brain"></i> I am an undergrad looking to join your lab. How do I apply?**
 
-We welcome enthusiatic undergraduate research assistants who are excited about our lab's work! If you are interested joining the lab, please complete this [form](/assets/html/undergrad_ra_application.html). Please make sure to include the following in your application: 
+We welcome enthusiatic undergraduate research assistants who are excited about our lab's work! If you are interested joining the lab, please complete this [form](/assets/html/undergrad_ra_application.html). Please make sure to include the following in your application:
+
 - CV or resume
 - academic transcript
 - description of your past research experience, current research interests, and career goals
 - description of interests in the lab (Why are you interested in our lab specifically?)
 - relevant technical background (e.g., programming languages, statistical analyses)
+
+---
+
+**<i class="fas fa-brain"></i> I am an undergrad. Can you write me a letter of recommendation?**
+
+I write letters for students applying to graduate school, medical school, jobs, and scholarships. Strong letters come from someone who knows your work well, so I generally write for students who have worked in the lab or whom I have gotten to know through a course (e.g., office hours, class discussions, or a substantial project). If we have not interacted much outside of a large lecture, I may not be able to write a strong letter, and I will tell you so.
+
+To request a letter, please email me **at least 4 weeks before your first deadline** with the following:
+
+- a link to a shared spreadsheet (Google Sheets or SharePoint/OneDrive) listing each program/position, its deadline, how letters are submitted, and a link to the program, plus a column for me to check off each letter once it is submitted; keep this updated as you add programs or receive portal requests (you may start from this [template](/assets/files/letter_request_template.xlsx))
+- your CV or resume
+- a draft of your personal statement or cover letter
+- your unofficial transcript
+- answers to the questions on the "About You" tab of the template (e.g., how we know each other, your strengths and accomplishments, areas of growth, challenges you have overcome, your goals, what you'd like me to highlight, and who else is writing letters for you)
+
+After you submit your applications, confirm that the portal requests have been sent to me. Most applications will ask whether you waive your right to view the letter (under FERPA); waiving this right is generally recommended, as committees tend to view confidential letters as more credible. A reminder email about a week before each deadline is helpful. Please also let me know the outcome.
+
+Resources on requesting letters:
+
+- [Asking for Letters of Recommendation for Graduate School](https://www.psychologicalscience.org/members/apssc/undergraduate_update/undergraduate-update-summer-2013/asking-for-letters-of-recommendation-for-graduate-school) (Association for Psychological Science)
+- [Recommendation Letters](https://psychology.ucsd.edu/undergraduate-program/undergraduate-resources/graduate-career-resources/applying-grad-school/rec-letters.html) (UC San Diego Psychology)
+- [Graduate School Recommendation Letters Guidelines](https://psychology.uga.edu/graduate-school-recommendation-letters-guidelines) (University of Georgia Psychology)
+- [How to Ask for a Letter of Recommendation](https://www.carleton.edu/neuroscience/resources/how-to-ask-for-a-letter-of-recommendation/) (Carleton College Neuroscience)
+- [Letter of Recommendation Tips for Student Requestors](https://neuroscience.vt.edu/content/dam/neuroscience_vt_edu/docs-forms/SoN-LOR-Tips-for-Student-Requestors.pdf) (Virginia Tech School of Neuroscience)
+- [A Report on the Qualities, Skills, and Characteristics Desired by Top Neuroscience Graduate Programs](https://pmc.ncbi.nlm.nih.gov/articles/PMC6312148/) (Boyette-Davis, _Journal of Undergraduate Neuroscience Education_), a survey of neuroscience faculty on what admissions committees value, including letters
+- [Pomerantz Career Center](https://careers.uiowa.edu) for help with application materials and career planning at Iowa
 
 ---
 
@@ -60,7 +87,7 @@ Generally, indviduals with a strong background in computer science and engineeri
 
 **<i class="fas fa-brain"></i> What are your values with respect to lab culture and mentoring environment?**
 
-I value fostering an inclusive culture built on mutual respect for all individuals, regardless of identity, background, and any other type of visible or invisible factors (this is shaped by my service on various departmental committes as a grad student and postdoc, as well as my own personal experiences). As such, I expect all lab members to be kind to and mutually respectful to one another. All lab members are expected to take personal responsibility for their work, use their critical thinking to solve problems, proactively ask questions, operate independently, and take initative to troubleshoot issues (both technical and interpersonal) when necessary. 
+I value fostering an inclusive culture built on mutual respect for all individuals, regardless of identity, background, and any other type of visible or invisible factors (this is shaped by my service on various departmental committes as a grad student and postdoc, as well as my own personal experiences). As such, I expect all lab members to be kind to and mutually respectful to one another. All lab members are expected to take personal responsibility for their work, use their critical thinking to solve problems, proactively ask questions, operate independently, and take initative to troubleshoot issues (both technical and interpersonal) when necessary.
 
 ---
 
