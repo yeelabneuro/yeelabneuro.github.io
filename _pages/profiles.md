@@ -11,6 +11,8 @@ children:
     permalink: /people/
   - title: join us
     permalink: /join/
+  - title: lab pics
+    permalink: /lab-pics/
 
 profiles:
   - align: left
