@@ -23,7 +23,24 @@ nav: false
   Halloween pumpkin carving with the <a href="https://www.bolkanlab.org">Bolkan Lab</a>.
 </div>
 
-### Happy hour with the Cockburn Lab (September 2026)
+### TUS training (October 2026)
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/camplab_pics/20261016_TUSTraining3.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/camplab_pics/20261016_TUSTraining2.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/camplab_pics/20261016_TUSTraining1.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
+<div class="caption">
+  Training on our transcranial ultrasound stimulation (TUS) system for our new <a href="/participate/">deep brain ultrasound study</a>.
+</div>
+
+### Lab social with the Cockburn Lab (September 2026)
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
@@ -31,7 +48,7 @@ nav: false
   </div>
 </div>
 <div class="caption">
-  Happy hour with the <a href="https://ccn.lab.uiowa.edu">Cockburn Lab</a>.
+  The CAMP Lab arrives in Iowa City! Enjoying some snacks with the <a href="https://ccn.lab.uiowa.edu">Cockburn Lab</a>.
 </div>
 
 ### SOBP 2026
