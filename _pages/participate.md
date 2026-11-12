@@ -77,14 +77,14 @@ To participate in any of our studies, you must be **18–55 years of age**. Inte
 
 **Location:** MRRF, Pappajohn Biomedical Discovery Building and Psychological and Brain Sciences Building, University of Iowa
 
-**Time Involved:** 4 in-person sessions, up the 8 hours total
+**Time Involved:** 4 in-person sessions, up to 8 hours total
 
-**Compensation:** Up to \\$210 total
+**Compensation:** Up to \\$200 total
 
 - \\$10 per hour for the screening session (up to \\$10 for Session 1)
 - \\$25 per hour for the MRI session (\\$25 for Session 2)
 - \\$25 per hour for the TUS sessions (\\$75 for Session 3 and \\$75 for Session 4)
-- \\$25 bonus for completing all 4 sessions
+- \\$15 bonus for completing all 4 sessions
 
 **Interested?** [Complete the pre-screening survey](https://uiowa.qualtrics.com/jfe/form/SV_031AiGisU1k24XY)
 
