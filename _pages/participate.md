@@ -73,13 +73,18 @@ To participate in any of our studies, you must be **18–55 years of age**. Inte
 
 **Purpose:** This study evaluates how deep brain circuits, neural activity, and neuromodulation interact to guide cognitive control and decision-making under stress and motivational incentives.
 
-**Participation:** Eligible participants will be asked to complete several online surveys and 3 in-person visits: one at the MRRF at the Pappajohn Biomedical Discovery Building (PBDB), and two at the Psychological and Brain Sciences Building (PBSB). In-person visits will involve measuring physiological measures (e.g., heart rate), conducting magnetic resonance imaging (MRI) inside a scanner, performing computerized tasks under different motivational/stress environments (e.g., electrical stimulation, sounds), completing behavioral tasks (e.g., puzzle game), and undergoing transcranial ultrasound (TUS) stimulation.
+**Participation:** Eligible participants will be asked to complete several online surveys and 4 in-person visits: one at the MRRF at the Pappajohn Biomedical Discovery Building (PBDB), and two at the Psychological and Brain Sciences Building (PBSB). In-person visits will involve measuring physiological measures (e.g., heart rate), conducting magnetic resonance imaging (MRI) inside a scanner, performing computerized tasks under different motivational/stress environments (e.g., electrical stimulation, sounds), completing behavioral tasks (e.g., puzzle game), and undergoing transcranial ultrasound (TUS) stimulation.
 
 **Location:** MRRF, Pappajohn Biomedical Discovery Building and Psychological and Brain Sciences Building, University of Iowa
 
-**Time Involved:** 3 in-person sessions, 1 to 3 hours each
+**Time Involved:** 4 in-person sessions, up the 8 hours total
 
-**Compensation:** \\$25 per hour or SONA credit
+**Compensation:** Up to \\$210 total
+
+- \\$10 per hour for the screening session (up to \\$10 for Session 1)
+- \\$25 per hour for the MRI session (\\$25 for Session 2)
+- \\$25 per hour for the TUS sessions (\\$75 for Session 3 and \\$75 for Session 4)
+- \\$25 bonus for completing all 4 sessions
 
 **Interested?** [Complete the pre-screening survey](https://uiowa.qualtrics.com/jfe/form/SV_031AiGisU1k24XY)
 
