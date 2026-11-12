@@ -90,4 +90,4 @@ To participate in any of our studies, you must be **18–55 years of age**. Inte
 
 ---
 
-If you have questions about our research or would like to be notified about upcoming studies, feel free to [email us](mailto:debbie-yee@uiowa.edu).
+If you have questions about our research or would like to be notified about upcoming studies, feel free to [email us](mailto:PBS-Camp-Lab@uiowa.edu).
