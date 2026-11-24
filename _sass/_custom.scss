@@ -71,3 +71,217 @@ html[data-theme="dark"] {
   font-size: clamp(0.75rem, 4.6vw, 1.7rem);
   white-space: nowrap;
 }
+
+/* Team page: featured profile, card grid, and join banner */
+
+.post:has(.team) {
+  max-width: none;
+}
+
+.post .team {
+  h2 {
+    font-size: 1.5rem;
+    margin: 0 0 0.25rem;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  .team-photo img {
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+
+  .team-role {
+    color: var(--global-theme-color);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+
+  .team-links {
+    margin-bottom: 0.75rem;
+
+    a {
+      margin-right: 0.5rem;
+    }
+  }
+
+  .team-featured {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    margin-bottom: 2.5rem;
+
+    .team-photo {
+      flex: 0 0 220px;
+    }
+  }
+
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr));
+    gap: 1.5rem;
+  }
+
+  .team-card {
+    padding: 1.5rem 1.25rem;
+    text-align: center;
+    background-color: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+
+    .team-photo {
+      width: 160px;
+      max-width: 100%;
+      margin: 0 auto 1rem;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+    }
+
+    .team-links a {
+      margin: 0 0.25rem;
+    }
+
+    .team-bio {
+      font-size: 0.95rem;
+      text-align: left;
+
+      p:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .team-toggle {
+    display: none;
+  }
+
+  /* Bios open on hover, click, or tap */
+  &.team-interactive .team-grid {
+    position: relative;
+  }
+
+  &.team-interactive .team-card {
+    transition: border-color 0.2s ease;
+
+    .team-photo {
+      position: relative;
+    }
+
+    .team-toggle {
+      display: block;
+      position: absolute;
+      inset: 0;
+      padding: 0;
+      background: none;
+      border: 0;
+      border-radius: 50%;
+      cursor: pointer;
+
+      &:focus-visible {
+        outline: 2px solid var(--global-theme-color);
+        outline-offset: 4px;
+      }
+
+      i {
+        position: absolute;
+        right: 6px;
+        bottom: 6px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 0.8rem;
+        color: #1c1c1d;
+        background: #efbf04;
+        border-radius: 50%;
+        transition: transform 0.2s ease;
+      }
+    }
+
+    .team-role {
+      margin-bottom: 0;
+    }
+
+    .team-bio {
+      position: absolute;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      padding: 1rem 1.25rem;
+      background-color: var(--global-card-bg-color);
+      border: 1px solid var(--global-theme-color);
+      border-radius: 8px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      visibility: hidden;
+      opacity: 0;
+      transition:
+        opacity 0.2s ease,
+        visibility 0.2s;
+    }
+
+    &.is-open {
+      border-color: var(--global-theme-color);
+
+      .team-toggle i {
+        transform: rotate(180deg);
+      }
+
+      .team-bio {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+
+    /* Touchscreens and narrow windows: expand inside the card instead of floating */
+    @media (hover: none), (max-width: 575px) {
+      .team-bio {
+        display: none;
+        position: static;
+        padding: 0.75rem 0 0;
+        border: 0;
+        box-shadow: none;
+      }
+
+      &.is-open .team-bio {
+        display: block;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      &,
+      .team-bio,
+      .team-toggle i {
+        transition: none;
+      }
+    }
+  }
+
+  .team-banner {
+    margin: 2rem 0;
+    padding: 1.2rem 1.4rem;
+    background: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-left: 4px solid var(--global-theme-color);
+    border-radius: 0 8px 8px 0;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .team-featured {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+
+      .team-photo {
+        flex-basis: auto;
+        width: 180px;
+      }
+    }
+  }
+}

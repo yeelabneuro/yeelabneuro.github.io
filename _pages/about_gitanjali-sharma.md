@@ -1,0 +1,1 @@
+Gitanjali Sharma is a first-year PhD student in the Interdisciplinary Graduate Program in Neuroscience at the University of Iowa. She holds an MSc in Cognitive Neuroscience from the University of York (UK) and a BSc in Psychology from Newcastle University (UK). She has key interests in brain-body mechanisms.

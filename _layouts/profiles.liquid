@@ -1,38 +1,122 @@
 ---
 layout: page
 ---
-<div class="post">
-  <article>
-    {% if page.profiles %}
-      {% for profile in page.profiles %}
-        <hr>
-        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-          {% if profile.image %}
-            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-            {% if profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-            {% endif %}
-            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
-          {% endif %}
-          {% if profile.more_info %}
-            <div class="more-info">{{ profile.more_info }}</div>
-          {% endif %}
-        </div>
+{% assign featured = page.profiles | where: 'style', 'featured' %}
+{% assign cards = page.profiles | where: 'style', 'card' %}
+{% assign banners = page.profiles | where: 'style', 'banner' %}
 
-        <div class="clearfix">
-          {% if profile.content %}
-            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-            {{ profile_content | markdownify }}
-          {% else %}
-            {{ content }}
-          {% endif %}
-        </div>
-      {% endfor %}
-    {% endif %}
+<div class="team">
+  {% for profile in featured %}
+    <section class="team-featured">
+      <div class="team-photo">
+        {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+        {% include figure.liquid loading="eager" path=profile_image_path class="img-fluid z-depth-1 rounded-circle" sizes="220px" alt=profile.name %}
+      </div>
+      <div class="team-bio">
+        <h2 id="{{ profile.name | slugify }}">{{ profile.name }}</h2>
+        <p class="team-role">{{ profile.role }}</p>
+        {% if profile.links %}
+          <div class="team-links">{{ profile.links }}</div>
+        {% endif %}
+        {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+        {{ profile_content | markdownify }}
+      </div>
+    </section>
+  {% endfor %}
 
-    {{ content }}
-  </article>
+  <div class="team-grid">
+    {% for profile in cards %}
+      <section class="team-card">
+        {% assign profile_id = profile.name | slugify %}
+        <div class="team-photo">
+          {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+          {% include figure.liquid loading="eager" path=profile_image_path class="img-fluid z-depth-1 rounded-circle" sizes="160px" alt=profile.name %}
+          <button
+            type="button"
+            class="team-toggle"
+            aria-expanded="false"
+            aria-controls="bio-{{ profile_id }}"
+            aria-label="Show bio for {{ profile.name }}"
+          >
+            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </button>
+        </div>
+        <h2 id="{{ profile_id }}">{{ profile.name }}</h2>
+        <p class="team-role">{{ profile.role }}</p>
+        {% if profile.links %}
+          <div class="team-links">{{ profile.links }}</div>
+        {% endif %}
+        <div class="team-bio" id="bio-{{ profile_id }}">
+          {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+          {{ profile_content | markdownify }}
+        </div>
+      </section>
+    {% endfor %}
+  </div>
+
+  {% for profile in banners %}
+    <section class="team-banner">
+      <h2 id="{{ profile.name | slugify }}">{{ profile.name }}</h2>
+      {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+      {{ profile_content | markdownify }}
+    </section>
+  {% endfor %}
+
+  {{ content }}
 </div>
+
+<script>
+  // Open a card's bio on photo hover; click, tap, or Enter keeps it open. Without JavaScript, all bios stay visible.
+  (() => {
+    const team = document.querySelector('.team');
+    team.classList.add('team-interactive');
+    const closers = [];
+
+    team.querySelectorAll('.team-card').forEach((card) => {
+      const photo = card.querySelector('.team-photo');
+      const toggle = card.querySelector('.team-toggle');
+      const bio = card.querySelector('.team-bio');
+      let pinned = false;
+      let timer;
+
+      const open = () => {
+        clearTimeout(timer);
+        closers.forEach((close) => close !== hide && close());
+        // Bios span the full row under the card, or above it when there is no room below
+        const rect = card.getBoundingClientRect();
+        const below = window.innerHeight - rect.bottom;
+        const opensUp = below < bio.offsetHeight + 50 && rect.top - 60 > below;
+        bio.style.top = `${opensUp ? card.offsetTop - bio.offsetHeight : card.offsetTop + card.offsetHeight}px`;
+        card.classList.add('is-open');
+        toggle.setAttribute('aria-expanded', 'true');
+      };
+      const hide = () => {
+        clearTimeout(timer);
+        pinned = false;
+        card.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', 'false');
+      };
+      closers.push(hide);
+
+      photo.addEventListener('pointerenter', (event) => {
+        if (event.pointerType === 'mouse') open();
+      });
+      card.addEventListener('pointerenter', () => clearTimeout(timer));
+      card.addEventListener('pointerleave', (event) => {
+        if (event.pointerType === 'mouse' && !pinned) timer = setTimeout(hide, 150);
+      });
+      toggle.addEventListener('click', () => {
+        if (pinned) {
+          hide();
+        } else {
+          open();
+          pinned = true;
+        }
+      });
+    });
+
+    const closeAll = () => closers.forEach((close) => close());
+    document.addEventListener('keydown', (event) => event.key === 'Escape' && closeAll());
+    document.addEventListener('click', (event) => event.target.closest('.team-card') || closeAll());
+  })();
+</script>
